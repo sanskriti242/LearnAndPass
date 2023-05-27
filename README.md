@@ -1,3 +1,34 @@
+# Fact Sharing Web Application
+
+This is a full stack web application built using HTML, CSS, JavaScript, and React.js for the frontend, and Supabase for the backend. The application allows users to upload facts, attach trustworthy source links, categorize them, and interact with them through reactions and voting.
+
+## Features
+
+- User-friendly interface for fact uploading and browsing
+- Facts are stored in Supabase, providing a reliable backend
+- Categorization of facts into 8 categories:
+  - Technology
+  - Science
+  - Finance
+  - Society
+  - Entertainment
+  - Health
+  - History
+  - News
+- Display of facts based on selected categories
+- Display of all facts when all categories are selected
+- User interactions with facts:
+  - Thumbs up reaction
+  - Mind blowing reaction
+  - Downvote option
+- Fact dispute handling based on voting:
+  - If the number of downvotes exceeds the sum of thumbs up and mind blowing reactions, the fact is marked as disputed
+- Real-time updates without page reload using React.js
+
+## Deployment
+
+The project is deployed and accessible at: [Fact Sharing Web Application](https://learnandshare.netlify.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
