@@ -16,7 +16,7 @@ This is a full stack web application built using HTML, CSS, JavaScript, and Reac
   - History
   - News
 - Display of facts based on selected categories
-- Display of all facts when all categories are selected
+- Display of all facts when ALL category is selected
 - User interactions with facts:
   - Thumbs up reaction
   - Mind blowing reaction
